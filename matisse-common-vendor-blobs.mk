@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/samsung/matisse-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/samsung/matisse-common/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
+    vendor/samsung/matisse-common/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/samsung/matisse-common/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
     vendor/samsung/matisse-common/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
     vendor/samsung/matisse-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
@@ -172,7 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/hw/activity_recognition.msm8226.so:system/vendor/lib/hw/activity_recognition.msm8226.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/samsung/matisse-common/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+    vendor/samsung/matisse-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/matisse-common/proprietary/bin/time_daemon:system/bin/time_daemon \
