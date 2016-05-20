@@ -177,9 +177,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/samsung/matisse-common/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/samsung/matisse-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
-    vendor/samsung/matisse-common/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so
+    vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
 # LPM
 PRODUCT_COPY_FILES += \
@@ -200,3 +198,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
     vendor/samsung/matisse-common/proprietary/lib/libmaet.so:system/lib/libmaet.so \
     vendor/samsung/matisse-common/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so
+
+# EXFAT
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
+    vendor/samsung/matisse-common/proprietary/bin/mkfs.exfat:system/bin/mkfs.exfat \
+    vendor/samsung/matisse-common/proprietary/bin/mount.exfat:system/bin/mount.exfat
