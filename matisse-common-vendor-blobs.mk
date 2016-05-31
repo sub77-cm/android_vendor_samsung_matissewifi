@@ -204,3 +204,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     vendor/samsung/matisse-common/proprietary/bin/mkfs.exfat:system/bin/mkfs.exfat \
     vendor/samsung/matisse-common/proprietary/bin/mount.exfat:system/bin/mount.exfat
+
+# NTFS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/matisse-common/proprietary/bin/fsck.ntfs:system/bin/fsck.ntfs \
+    vendor/samsung/matisse-common/proprietary/bin/mkfs.ntfs:system/bin/mkfs.ntfs \
+    vendor/samsung/matisse-common/proprietary/bin/mount.ntfs:system/bin/mount.ntfs \
+    vendor/samsung/matisse-common/proprietary/lib/libfuse.so:system/lib/libfuse.so \
+    vendor/samsung/matisse-common/proprietary/lib/libntfs-3g.so:system/lib/libntfs-3g.so
