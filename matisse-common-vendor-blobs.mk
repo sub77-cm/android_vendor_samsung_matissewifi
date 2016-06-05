@@ -179,26 +179,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/samsung/matisse-common/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
-# LPM
-PRODUCT_COPY_FILES += \
-    vendor/samsung/matisse-common/proprietary/bin/lpm:system/bin/lpm \
-    vendor/samsung/matisse-common/proprietary/bin/lpm-delay:system/bin/lpm-delay \
-    vendor/samsung/matisse-common/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
-    vendor/samsung/matisse-common/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-    vendor/samsung/matisse-common/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-    vendor/samsung/matisse-common/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
-    vendor/samsung/matisse-common/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
-    vendor/samsung/matisse-common/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
-    vendor/samsung/matisse-common/proprietary/media/particle_intro.spi:system/media/particle_intro.spi \
-    vendor/samsung/matisse-common/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-    vendor/samsung/matisse-common/proprietary/media/particle_loop.spi:system/media/particle_loop.spi \
-    vendor/samsung/matisse-common/proprietary/media/percentage.spi:system/media/percentage.spi \
-    vendor/samsung/matisse-common/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
-    vendor/samsung/matisse-common/proprietary/media/wireless_right.spi:system/media/wireless_right.spi \
-    vendor/samsung/matisse-common/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-    vendor/samsung/matisse-common/proprietary/lib/libmaet.so:system/lib/libmaet.so \
-    vendor/samsung/matisse-common/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so
-
 # EXFAT
 PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
