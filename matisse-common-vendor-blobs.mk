@@ -192,3 +192,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/matisse-common/proprietary/bin/mount.ntfs:system/bin/mount.ntfs \
     vendor/samsung/matisse-common/proprietary/lib/libfuse.so:system/lib/libfuse.so \
     vendor/samsung/matisse-common/proprietary/lib/libntfs-3g.so:system/lib/libntfs-3g.so
+
+# Millet-Common - Camera front/back - Mixer
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/millet-common/vendor/lib/libmmcamera_sr130pc20.so:system/millet-common/vendor/lib/libmmcamera_sr130pc20.so \
+    $(LOCAL_PATH)/proprietary/millet-common/vendor/lib/libmmcamera_sr352.so:system/millet-common/vendor/lib/libmmcamera_sr352.so \
+    $(LOCAL_PATH)/proprietary/millet-common/etc/mixer_paths.xml:system/millet-common/etc/mixer_paths.xml
